@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross qt5-qmake
 
 NAME="mingw64-x86_64-qt5-canvas3d"
-VERSION=5.6.2
+VERSION=5.9.3
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Qt C++ application framework for Win64 toolchain (QtQuick 3D controls)"
@@ -14,4 +14,3 @@ investments made on one platform across many others."
 HOMEPAGE="https://www.qt.io/"
 SRC_URI="http://download.qt.io/official_releases/qt/${VERSION%.*}/${VERSION}/submodules/qtcanvas3d-opensource-src-${VERSION}.tar.xz"
 SRC_DIR="qtcanvas3d-opensource-src-${VERSION}"
-PATCH_URI="5.5.1-mingw-compile.patch"
